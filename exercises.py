@@ -71,6 +71,12 @@ malware_type ('malware')
 #Create a function named encryption which takes a parameter keys.
 
 #The function will print 'Encryption Success' if the keys passed into function has 5 characters and print 'Encryption Fail' if it doesn't.
+def encryption(keys):
+    if (keys =='12345'):
+        print ('Encryption Success')
+    else: 
+        print ('Encryption Fail')
+encryption ('54321')
 
 #8 Function even_cryptography
 #Create a function named even_cryptography which takes a parameter num.
