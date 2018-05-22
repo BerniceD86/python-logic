@@ -44,6 +44,12 @@ print(password_result)
 #Create a function named check_login which takes a parameter login.
 
 #The function will print 'Login Success' if the login passed into the function is equal to 'DevLeague' and print 'Re-enter Login' if it doesn't.
+def check_login(login):
+    if (login == 'DevLeague'):
+        print ('Login Success')
+    else: 
+        print ('Re-enter Login')
+check_login('DevLeague')
 
 #6 Function malware_type
 #Create a function named malware_type which takes a parameter malware. 
