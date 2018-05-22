@@ -82,6 +82,12 @@ encryption ('54321')
 #Create a function named even_cryptography which takes a parameter num.
 
 #The function will print 'Decryption Success' if the number passed into the function is even and print 'Decryption Fail' if it isn't.
+def even_cryptography(num):
+    if(num%2==0):
+        print ('Decryption Success')
+    else: 
+        print ('Decryption Fail')
+even_cryptography(2)
 
 #9 Function bandwidth
 #Declare a variable named mbps and assign it a list of 5 number values of your choosing. 
